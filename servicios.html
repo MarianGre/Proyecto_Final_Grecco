@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Generación, compilación y edición de contenidos audiovisuales" />
+    <meta name="keywords" content="Fotografía, video, edición, pagina web"/>
+    <link rel="shortcut icon" href="./img/logo.svg"/>
+    <!-- sweetalert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Marianela Grecco - generación de contenido audio visual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Inicio Navbar -->
+    <div class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img src="./img/logo_white.png" alt="Logo"
+          /></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <button id= "carrito-btn" class="carrito-btn bg-info">
+                <img clas="cartIcon" src="./img/carrito.png" style="max-width: 2rem; height: 2rem;" alt="carrito de compras">
+                <span id="cartCounter"></span><a href="#carrito">Mi carrito</a>
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Fin Navbar -->
+    <!-- Inicio main -->
+    <main class="main_servicios_container mt-5">
+      <h1 class="text-light mb-5">La vida en imágenes</h1>
+      </div>
+    <!-- Tarjetas-->
+          <div class="row" id="tarjeta_foto">
+          </div>
+    </main>
+    <!-- Carrtio -->
+    <div id= "carrito" class="container-carrito bg-info">
+    </div>
+    <!-- Inicio formulario contacto -->
+    <section class="main_contacto_container">
+      <div class="container">
+        <div class="row">
+          <div class="container">
+          <h2 class="text-primary text-center">¡HOLA!</h2>
+          <p class="text-primary text-center">No dudes en enviarnos tu consulta.</p>
+        </div>
+        <form id="formulario" action="/redireccion">
+          <div class="mb-3">
+            <input  placeholder="Nombre" type="text" class="form-control" id="nombre" required/>
+          </div>
+          <div class="mb-3">
+            <input  placeholder="Email" type="text" class="form-control" id="correo" required/>
+          </div>
+          <button type="submit" class="btn btn-primary text-info">
+            Enviar
+          </button>
+        </form>
+        </div>
+      <!-- Información del formulario -->
+    <div class="container mt-5 text-primary">
+      <div class="info"></div>
+    </div>
+        </div>
+    </section>
+    <!-- Fin formulario contacto -->
+<!-- Inicio footer -->
+<footer class="footer_container bg-success">
+  <div class="footer_container_wrapper">
+    <p class="text-warning fs-4"
+      >ESTAMOS EN CONTACTO</p>
+  </div>
+  <div class="container">
+<div class="row">
+    <div class="col-6 text-end">
+        <img
+          src="./img/logo_grey.png"
+          alt="logo"
+          width="70px"
+          height="70px"
+        />
+    </div>
+    <div class="col-6 text-start">
+      <a href="https://www.instagram.com/greccomarianela/">
+            <img class="pt-1"
+        src="./img/instagram-svgrepo-com.svg"
+        alt="instagram"
+        width="60px"
+        height="60px" 
+      />
+      </a>
+    </div>
+  </div>
+  </div>
+  <div class="footer_container_lastline">
+    <h6 class="text-warning">
+      Todos los derechos reservados Marianela Grecco™ 2023
+    </h6>
+  </div>
+</footer>
+<!-- SCRIPTS -->
+<script src="./js/script.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

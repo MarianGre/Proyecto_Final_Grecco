@@ -1,0 +1,48 @@
+
+
+.main_servicios_container {
+  background-image: url(../img/servicios_portada.png);
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+@media (max-width: 992px) {
+  .main_servicios_container {
+    background-position: center center;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: auto;
+  }
+}
+.main_contacto_container {
+  padding-top: 115px;
+  background-image: url(../img/contactos_portada.png);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & _form {
+    padding: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .main_contacto_container {
+    padding-top: 80px;
+  }
+}

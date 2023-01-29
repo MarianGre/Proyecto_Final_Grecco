@@ -1,0 +1,13 @@
+
+@import "./variables.scss";
+
+@font-face {
+    font-family: "'Montserrat', sans-serif;";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;900&display=swap');
+    }
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+@import "./pages/servicios";

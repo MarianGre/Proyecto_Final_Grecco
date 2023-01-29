@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "nombre": "Jornada Mínima (2hs)",
+    "precio": 16500
+  },
+  {
+    "id": "2",
+    "nombre": "Media Jornada (4hs)",
+    "precio": 30000
+  },
+  {
+    "id": "3",
+    "nombre": "Hora adicional",
+    "precio": 4800
+  },
+  {
+    "id": "4",
+    "nombre": "Retoque Básico",
+    "precio": 1650
+
+  },
+  {
+    "id": "5",
+    "nombre": "Retoque Intemedio",
+    "precio": 3300
+  },
+  {
+    "id": "6",
+    "nombre": "Retoque Avanzado",
+    "precio": 6600
+  }
+]
